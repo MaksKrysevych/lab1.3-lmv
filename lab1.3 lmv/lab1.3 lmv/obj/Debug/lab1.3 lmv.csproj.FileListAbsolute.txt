@@ -1,0 +1,10 @@
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\bin\Debug\lab1.3 lmv.exe.config
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\bin\Debug\lab1.3 lmv.exe
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\bin\Debug\lab1.3 lmv.pdb
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\obj\Debug\lab1.3 lmv.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\obj\Debug\lab1._3_lmv.Form1.resources
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\obj\Debug\lab1._3_lmv.Properties.Resources.resources
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\obj\Debug\lab1.3 lmv.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\obj\Debug\lab1.3 lmv.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\obj\Debug\lab1.3 lmv.exe
+C:\Users\Home\Desktop\Visual Studio\lab1.3 lmv\lab1.3 lmv\obj\Debug\lab1.3 lmv.pdb
