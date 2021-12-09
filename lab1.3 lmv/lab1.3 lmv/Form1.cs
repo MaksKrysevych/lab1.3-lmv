@@ -97,5 +97,15 @@ namespace lab1._3_lmv
         {
             button3_Click(button3, null);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            button3_Click(button3, null);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            button4_Click(button4, null);
+        }
     }
 }
