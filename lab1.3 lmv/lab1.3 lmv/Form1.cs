@@ -15,6 +15,11 @@ namespace lab1._3_lmv
         public Form1()
         {
             InitializeComponent();
+
+
+            StartPosition = FormStartPosition.CenterScreen;
+
+            ContextMenuStrip = contextMenuStrip1;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -106,6 +111,21 @@ namespace lab1._3_lmv
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             button4_Click(button4, null);
+        }
+
+        private void messageToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            button1_Click(button1, null);
+        }
+
+        private void checkToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            button2_Click(button2, null);
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            button3_Click(button3, null);
         }
     }
 }

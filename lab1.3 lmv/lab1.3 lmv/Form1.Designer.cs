@@ -29,6 +29,7 @@ namespace lab1._3_lmv
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,9 +48,14 @@ namespace lab1._3_lmv
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.messageToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -215,6 +221,37 @@ namespace lab1._3_lmv
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.messageToolStripMenuItem1,
+            this.checkToolStripMenuItem1,
+            this.exitToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 104);
+            // 
+            // messageToolStripMenuItem1
+            // 
+            this.messageToolStripMenuItem1.Name = "messageToolStripMenuItem1";
+            this.messageToolStripMenuItem1.Size = new System.Drawing.Size(210, 24);
+            this.messageToolStripMenuItem1.Text = "Message    Ctrl+M";
+            this.messageToolStripMenuItem1.Click += new System.EventHandler(this.messageToolStripMenuItem1_Click);
+            // 
+            // checkToolStripMenuItem1
+            // 
+            this.checkToolStripMenuItem1.Name = "checkToolStripMenuItem1";
+            this.checkToolStripMenuItem1.Size = new System.Drawing.Size(210, 24);
+            this.checkToolStripMenuItem1.Text = "Check    Ctrl+C";
+            this.checkToolStripMenuItem1.Click += new System.EventHandler(this.checkToolStripMenuItem1_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.exitToolStripMenuItem.Text = "Exit    Ctrl+E";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -238,6 +275,7 @@ namespace lab1._3_lmv
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,6 +300,10 @@ namespace lab1._3_lmv
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem messageToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem checkToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
 
